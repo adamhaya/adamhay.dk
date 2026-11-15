@@ -42,6 +42,12 @@
     }
     a { color: var(--accent); text-decoration: none; border-bottom: 1px solid transparent; }
     a:hover { border-bottom-color: var(--accent); }
+    .project p + p { margin-top: 10px; }
+    .project h3 { font-size: 1.15rem; font-weight: normal; line-height: 1.35; margin-bottom: 6px; }
+    .project .meta {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 0.85rem; color: var(--muted); margin-bottom: 4px;
+    }
     ul.facts { list-style: none; }
     ul.facts li { padding: 6px 0; border-bottom: 1px dashed var(--line); }
     ul.facts li:last-child { border-bottom: none; }
@@ -78,6 +84,13 @@
 
     <section id="projekter">
       <h2>Projekter</h2>
+
+      <div class="project">
+        <p class="meta">Studieretningsprojekt (SRP) · Bioteknologi A &amp; Matematik A · 2024</p>
+        <h3>Neurologiske perspektiver på toksiner: En analyse med FitzHugh-Nagumo-modellen</h3>
+        <p>Hvordan påvirker toksiner nervesystemet – og kan det beskrives matematisk? Projektet ser på, hvordan toksinerne BMAA og muscimol påvirker det neuromuskulære aktionspotentiale, og modellerer virkningen med FitzHugh-Nagumo-modellen, løst numerisk med Eulers metode.</p>
+        <p><a href="SRP_Adam_Hayajneh.pdf">Læs projektet (PDF)</a></p>
+      </div>
     </section>
 
     <section id="kontakt">
